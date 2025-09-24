@@ -1,10 +1,61 @@
+
+
 /* footer style css */
+.foot{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 50px 0px;
+    gap: 100px;
+    background-color:  rgb(235, 232, 231);;
+}
 .left-side{
     display: flex;
+    line-height: 20px;
     text-decoration: none;
-    width: 100px;
+    width: 200px;
     font-style: none;
-    margin: 5px;
-    gap: 10px;
+    margin-bottom: 20px;
+    gap: 40px;
     padding: 5px;
+}
+.left-side a {
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    display: block;
+    gap: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+   
+}
+.left-side a:hover {
+  color: gray;
+} 
+.pa{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.icon-8{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+.icon-8 img{
+    width: 50px;
+    height: 50px;
+}
+.middle{
+    margin-top: 30px;
+}
+.patal{
+    align-items: center;
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(70, 70, 69);
+    background-color: #f3ebea;
+    text-align: center;
 }
